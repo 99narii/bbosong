@@ -62,6 +62,7 @@ export default function AdminPage() {
 
   // 포트폴리오 목록 불러오기
   const fetchPortfolios = async () => {
+    if (!supabase) return;
     setLoading(true);
     const { data, error } = await supabase
       .from("portfolios")
@@ -82,6 +83,7 @@ export default function AdminPage() {
 
   // 이미지 업로드
   const uploadImage = async (file: File, path: string): Promise<string | null> => {
+    if (!supabase) return null;
     const fileExt = file.name.split(".").pop();
     const fileName = `${Date.now()}-${Math.random().toString(36).substring(7)}.${fileExt}`;
     const filePath = `${path}/${fileName}`;
@@ -226,6 +228,8 @@ export default function AdminPage() {
         images: uploadedImages,
       };
 
+      if (!supabase) throw new Error("Supabase 연결 오류");
+
       if (editingId) {
         // 수정
         const { error } = await supabase
@@ -254,6 +258,7 @@ export default function AdminPage() {
 
   // 포트폴리오 삭제
   const handleDelete = async (id: number) => {
+    if (!supabase) return;
     if (!confirm("정말 삭제하시겠습니까?")) return;
 
     const { error } = await supabase.from("portfolios").delete().eq("id", id);
