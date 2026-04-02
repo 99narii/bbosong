@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { supabase, Portfolio, PortfolioImage } from "@/lib/supabase";
 
-const categories = ["입주청소", "상가청소", "가정청소", "새집증후군"];
+const categories = ["입주청소", "화장실청소", "주방청소", "상가청소", "새집증후군"];
 
 interface ImagePair {
   beforeFile: File | null;

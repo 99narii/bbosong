@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { supabase, Portfolio } from "@/lib/supabase";
 
-const categories = ["전체", "입주청소", "상가청소", "가정청소", "새집증후군"];
+const categories = ["전체", "입주청소", "화장실청소", "주방청소", "상가청소", "새집증후군"];
 
 export default function PortfolioPage() {
   const [activeCategory, setActiveCategory] = useState("전체");
