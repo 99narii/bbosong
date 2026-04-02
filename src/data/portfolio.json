@@ -1,0 +1,47 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "title": "강남 아파트 입주 청소",
+      "description": "32평 신축 아파트 입주 전 전체 청소",
+      "location": "서울 강남구",
+      "category": "입주청소"
+    },
+    {
+      "id": 2,
+      "title": "판교 사무실 청소",
+      "description": "200평 규모 사무실 정기 청소",
+      "location": "경기 성남시",
+      "category": "상가청소"
+    },
+    {
+      "id": 3,
+      "title": "용산 빌라 새집증후군 케어",
+      "description": "신축 빌라 포름알데히드 제거 작업",
+      "location": "서울 용산구",
+      "category": "새집증후군"
+    },
+    {
+      "id": 4,
+      "title": "마포 카페 오픈 청소",
+      "description": "신규 오픈 카페 전체 청소 및 소독",
+      "location": "서울 마포구",
+      "category": "상가청소"
+    },
+    {
+      "id": 5,
+      "title": "분당 주택 정기 청소",
+      "description": "45평 단독주택 주 2회 정기 청소",
+      "location": "경기 성남시",
+      "category": "가정청소"
+    },
+    {
+      "id": 6,
+      "title": "송파 오피스텔 이사 청소",
+      "description": "원룸 오피스텔 퇴거 청소",
+      "location": "서울 송파구",
+      "category": "입주청소"
+    }
+  ],
+  "categories": ["전체", "입주청소", "상가청소", "가정청소", "새집증후군"]
+}

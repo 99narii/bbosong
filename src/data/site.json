@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "뽀송",
+    "slogan": "깨끗한 공간, 건강한 생활",
+    "description": "깨끗한 공간, 건강한 생활. 뽀송 청소 전문업체가 함께합니다. 가정, 사무실, 상업시설 전문 청소 서비스를 제공합니다.",
+    "established": 2016,
+    "ceo": "홍길동",
+    "businessNumber": "123-45-67890"
+  },
+  "contact": {
+    "phone": "010-2488-1056",
+    "email": "clean.bbosong@gmail.com",
+    "address": "경기도 고양시 덕양구 성사동",
+    "hours": "09:00 - 18:00"
+  },
+  "social": {
+    "kakao": "#",
+    "naver": "#",
+    "instagram": "#"
+  },
+  "stats": [
+    { "number": "10+", "label": "년 평균 경력" },
+    { "number": "5,000+", "label": "고객 만족" },
+    { "number": "100%", "label": "친환경 세제" },
+    { "number": "24H", "label": "빠른 응대" }
+  ],
+  "aboutStats": [
+    { "number": "10+", "label": "년 평균 경력" },
+    { "number": "5,000+", "label": "만족 고객" },
+    { "number": "98%", "label": "재이용률" }
+  ]
+}

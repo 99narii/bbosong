@@ -1,0 +1,28 @@
+{
+  "navItems": [
+    { "href": "/", "label": "홈" },
+    { "href": "/#services", "label": "서비스" },
+    { "href": "/portfolio", "label": "전후사진" },
+    { "href": "/#about", "label": "회사소개" },
+    { "href": "/contact", "label": "문의하기" }
+  ],
+  "footerLinks": {
+    "services": [
+      { "label": "화장실/주방/발코니", "href": "#services" },
+      { "label": "상가 청소", "href": "#services" },
+      { "label": "입주/이사 청소", "href": "#services" },
+      { "label": "에어컨 청소", "href": "#services" },
+      { "label": "정기 청소", "href": "#services" }
+    ],
+    "company": [
+      { "label": "회사 소개", "href": "#about" },
+      { "label": "이용 약관", "href": "#" },
+      { "label": "개인정보처리방침", "href": "#" }
+    ],
+    "support": [
+      { "label": "자주 묻는 질문", "href": "#" },
+      { "label": "문의하기", "href": "/contact" },
+      { "label": "고객센터", "href": "tel:010-2488-1056" }
+    ]
+  }
+}
