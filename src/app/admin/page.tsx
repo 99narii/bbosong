@@ -438,12 +438,12 @@ export default function AdminPage() {
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">설명</label>
-              <input
-                type="text"
+              <textarea
                 value={formData.description}
                 onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none"
+                className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none resize-none"
                 placeholder="예: 신축 아파트 입주 전 전체 청소 작업"
+                rows={3}
               />
             </div>
 
@@ -526,12 +526,12 @@ export default function AdminPage() {
                         }}
                       />
                     </div>
-                    <input
-                      type="text"
+                    <textarea
                       value={img.description}
                       onChange={(e) => handleDescriptionChange(index, e.target.value)}
-                      className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none text-sm"
+                      className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 outline-none text-sm resize-none"
                       placeholder="이미지 설명 (예: 주방 싱크대 청소)"
+                      rows={2}
                     />
                   </div>
                 ))}

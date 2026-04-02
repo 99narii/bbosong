@@ -121,7 +121,7 @@ export default function PortfolioDetailPage() {
 
             {/* Description */}
             {portfolio.description && (
-              <p className="mt-4 text-gray-600 text-lg">{portfolio.description}</p>
+              <p className="mt-4 text-gray-600 text-lg whitespace-pre-line">{portfolio.description}</p>
             )}
 
             {/* 대표 이미지 (썸네일) */}
@@ -194,7 +194,7 @@ export default function PortfolioDetailPage() {
                     {/* Description */}
                     {image.description && (
                       <div className="p-5 border-t border-gray-100">
-                        <p className="text-gray-700">{image.description}</p>
+                        <p className="text-gray-700 whitespace-pre-line">{image.description}</p>
                       </div>
                     )}
                   </div>

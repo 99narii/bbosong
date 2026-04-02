@@ -14,9 +14,9 @@
     "hours": "09:00 - 18:00"
   },
   "social": {
-    "kakao": "#",
+    "kakao": "https://open.kakao.com/me/bbosongclean",
     "naver": "#",
-    "instagram": "#"
+    "instagram": "https://www.instagram.com/clean_bbosong/"
   },
   "stats": [
     { "number": "10+", "label": "년 평균 경력" },
