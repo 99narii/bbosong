@@ -12,10 +12,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">{siteData.company.name[0]}</span>
-            </div>
+          <a href="/" className="flex items-center">
             <span className="text-xl font-bold text-gray-900">{siteData.company.name}</span>
           </a>
 

@@ -26,7 +26,7 @@ const values = [
       </svg>
     ),
     title: "신속한 서비스",
-    description: "예약 후 48시간 이내 서비스 제공, 긴급 청소도 가능합니다.",
+    description: "예약 후 정확한 시간에 서비스 제공합니다.",
   },
   {
     icon: (
@@ -71,11 +71,11 @@ export default function About() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4">
               {siteData.aboutStats.map((stat) => (
-                <div key={stat.label} className="text-center p-4 bg-white rounded-xl shadow-sm">
-                  <div className="text-2xl font-bold text-teal-500">{stat.number}</div>
-                  <div className="text-sm text-gray-500">{stat.label}</div>
+                <div key={stat.label} className="text-center p-2 sm:p-4 bg-white rounded-xl shadow-sm">
+                  <div className="text-lg sm:text-2xl font-bold text-teal-500">{stat.number}</div>
+                  <div className="text-xs sm:text-sm text-gray-500">{stat.label}</div>
                 </div>
               ))}
             </div>

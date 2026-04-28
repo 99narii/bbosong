@@ -6,6 +6,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { supabase, Portfolio } from "@/lib/supabase";
 
+// 메타데이터는 클라이언트 컴포넌트에서 사용 불가하므로 별도 처리 필요
+// generateMetadata는 서버 컴포넌트에서만 가능
+
 const categories = ["전체", "입주청소", "화장실청소", "주방청소", "상가청소", "새집증후군"];
 
 export default function PortfolioPage() {

@@ -29,7 +29,7 @@ export default function Hero() {
 
           {/* Subheading */}
           <p className="text-lg sm:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-            10년 이상의 경험과 전문 교육을 받은 청소 전문가가
+            다양한 경험의 청소 전문가가
             <br className="hidden sm:block" />
             고객님의 소중한 공간을 깨끗하게 관리해 드립니다.
           </p>

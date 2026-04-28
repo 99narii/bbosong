@@ -1,11 +1,11 @@
 {
   "company": {
     "name": "뽀송",
-    "slogan": "깨끗한 공간, 건강한 생활",
-    "description": "깨끗한 공간, 건강한 생활. 뽀송 청소 전문업체가 함께합니다. 가정, 사무실, 상업시설 전문 청소 서비스를 제공합니다.",
-    "established": 2016,
-    "ceo": "홍길동",
-    "businessNumber": "123-45-67890"
+    "slogan": "청소에 진심",
+    "description": "깨끗한 공간, 건강한 생활. 뽀송 청소 전문업체가 함께합니다.",
+    "established": 2021,
+    "ceo": "유도겸",
+    "businessNumber": "506-24-15235"
   },
   "contact": {
     "phone": "010-2488-1056",
@@ -19,13 +19,13 @@
     "instagram": "https://www.instagram.com/clean_bbosong/"
   },
   "stats": [
-    { "number": "10+", "label": "년 평균 경력" },
+    { "number": "5+", "label": "년 평균 경력" },
     { "number": "5,000+", "label": "고객 만족" },
-    { "number": "100%", "label": "친환경 세제" },
-    { "number": "24H", "label": "빠른 응대" }
+    { "number": "95%+", "label": "만족도" },
+    { "number": "9to8", "label": "빠른 응대" }
   ],
   "aboutStats": [
-    { "number": "10+", "label": "년 평균 경력" },
+    { "number": "5+", "label": "년 평균 경력" },
     { "number": "5,000+", "label": "만족 고객" },
     { "number": "98%", "label": "재이용률" }
   ]
